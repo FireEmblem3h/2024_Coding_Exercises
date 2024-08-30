@@ -49,20 +49,24 @@ return 0;
 
 //----------------------------------------------------------------------------------------------------------------------------
 
-/*int Seconds, Minutes, Hours;
+int Seconds, Minutes, Hours, totalSeconds;
 
 cout << "How many seconds passed? ";
-cin >> Seconds;
+cin >> totalSeconds;
 
-Minutes = Seconds / 60;
-Seconds = Seconds % 60;
-Hours = Minutes % 3600;
+Hours = totalSeconds / 3600;
+totalSeconds %= 3600;
+
+Minutes = totalSeconds / 60;
+totalSeconds %= 60;
+
+Seconds = totalSeconds;
 
 cout << "----------------------------------------------------" << endl;
 cout << Hours << " hours " << Minutes << " minutes and " << Seconds << " seconds." << endl;
 
 return 0;
-*/
+
 
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -101,7 +105,7 @@ return 0;
 
    // -------------------------------------------------------------------------------------------------------------------------
     
-    double fehr, cels;
+    /* double fehr, cels;
 
     cout << "Enter the temperature (f): ";
     cin >> fehr; 
@@ -111,7 +115,7 @@ return 0;
 
     cout << fehr << " f = " << cels << " c." << endl;
 
-    return 0;
+    return 0; */
 
 }
 
