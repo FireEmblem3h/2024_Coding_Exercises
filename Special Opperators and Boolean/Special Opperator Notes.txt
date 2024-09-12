@@ -1,0 +1,25 @@
+= =	(This is equal to that)
+
+!=	(This is NOT equal to that)
+
+>	(This is greater than that)
+
+< 	(This is less than that)
+
+>=	(This is greater than OR equal to that)
+
+<=	(This is less than OR equal to that)
+
+
+Ex. (7 > 10)  //False
+
+Next, we learned about if and else statements. An else statement is always linked to an if statement. ALL if statements must include a condition to follow. 
+
+&&	(Logical AND meaning both statements must follow each other. If both are 	true, then the whole statement is true. Otherwise the entire argument is 	false.)
+
+||	(Logical OR means only ONE statement has to be true for the entire 	argument to be true. If both statements are false, then the whole statement 	will be false.)
+
+!	(NOT)
+
+Ex. (7 > 5 || x > 10), so the entire statement is true because 7 > 5. 
+
