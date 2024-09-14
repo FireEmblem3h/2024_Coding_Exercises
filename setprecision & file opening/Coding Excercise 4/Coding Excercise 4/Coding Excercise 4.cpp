@@ -10,11 +10,11 @@ using namespace std;
 int main()
 {
    
-	// -----------------------------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------------------
 
 // Continuation from 08/26 
 
-/*/Define the variables
+/*
 const double TAX_RATE = 0.03;
 double priceChips, subTotal, tax, totalCost;
 int quantChips;
@@ -77,11 +77,11 @@ return 0;
 	double p1 = 12.3, p2 = 100.0, p3 = 799, p4 = 123.45;
 
 	//Display results
-	cout << fixed << setprecision(2) << endl;
+	cout << fixed << setprecision(2) << endl;*/
 
     // -------------------------------------------------------------------------------------------------------------------
     
-    /* ifstream inData;
+    ifstream inData;
     ofstream outData; 
 
     int a, b, c, d;
@@ -101,7 +101,7 @@ return 0;
 
 
     return 0;
-    */
+    
 
    // -------------------------------------------------------------------------------------------------------------------------
     
@@ -110,7 +110,7 @@ return 0;
     cout << "Enter the temperature (f): ";
     cin >> fehr; 
 
-    cels = 5.0 / 9; // Adding this will help with debugging. This is a break point, it will stop at this line vs. executing the whole code.
+    cels = 5.0 / 9;     // Adding this will help with debugging. This is a break point, it will stop at this line vs. executing the whole code.
     cels *= (fehr - 32); 
 
     cout << fehr << " f = " << cels << " c." << endl;
