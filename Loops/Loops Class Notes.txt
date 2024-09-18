@@ -1,6 +1,0 @@
-for loops are used if there is a predefined number of iterations. For loops have three statements
-
-for (int x = 1, x <= 100, x *+) {
-}
-
-So this is like having three while statements within one. 
