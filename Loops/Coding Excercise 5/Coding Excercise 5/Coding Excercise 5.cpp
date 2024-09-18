@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     // PART 1
-    /*
+    
     int x = 1; // This example is called a "Counter Control Loop"
 
     while (x < 10) {  // The loop statement will output 1 to 9, then stop looping since it is outside of the statement
@@ -22,9 +22,9 @@ int main()
     }
 
     cout << "After the Loop\n";
-    */
+    
     // ------------------------PART 2--------------------------------------
-    /*
+    
     int x = 0; // A way to execut input validation, it will repeat until the user input falls between the statement rules
 
     while (x < 1 || x > 10) {
@@ -35,18 +35,18 @@ int main()
     }
 
     cout << "After the Loop.\n";
-    */
+    
     //------------------------------ PART 3----------------------------------
-    /*
+    
     int x = 5;
 
     while (x <= 15) {
         cout << x++ << " ";
 
     }
-    */
+    
     // ------------------------------PART 4------------------------------------
-    /*
+    
     int lower, upper, x;
 
     cout << "Enter an integer between 0 and 10: ";
@@ -81,11 +81,11 @@ int main()
 
     // ------------------------------ PART 5 ----------------------------------------------------------------
     
-   /*
+   
     for (int x = 2; x <= 1000; x += 2) { // This allows multiple predefined iterations. Do not use this if you need user input.
         cout << x << " ";
    }
-   */
+   
 
     for (int x = 1; x <= 16; x++) {
         cout << setw(3) << x; 
