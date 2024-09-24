@@ -77,16 +77,17 @@ int main()
 
         x += 2; 
     }
-    */
+    
 
     // ------------------------------ PART 5 ----------------------------------------------------------------
     
-   /*
+   
     for (int x = 2; x <= 1000; x += 2) { // This allows multiple predefined iterations. Do not use this if you need user input.
         cout << x << " ";
    }
-   */
-    /*
+   
+    // ------------------------------
+    
     for (int x = 1; x <= 16; x++) {
         cout << setw(3) << x; 
         if (x % 4 == 0) cout << endl; 
@@ -101,7 +102,7 @@ int main()
 
     // ------------------------------- PART 6 -------------------------------------------------------------------
 
-   /*
+   
     int num;
 
     cout << "Enter an integer: ";
@@ -125,31 +126,43 @@ int main()
             cout << x << " ";
         }
     }
-    */
+    
 
     // ------------------------------------------- PART 7 -------------------------------------------------------------
 
         // Using for Loops for any number amount of entered integers.
         // USE FOR ASSIGNMENT
 
+   double num = 0, avg, champ = 0, total = 0, x = 0;
 
-    int num, champ = 0, total = 0; // Total must equal 0 because we need to initialize the integer "total" to an value. 0 is the safe answer.
- 
-    for (int x = 0; x < 10; x++) { // Champion value is based on what is the largest integer based on constant comparison
-    cout << "Enter an integer: ";
-    cin >> num;
+   while (num >= 0) {
+   
+   cin >> num; // Place cin within the while loop since it's a line of numbers, and so it won't stop at the first inputted integer
 
-    total += num;
+     if (num < 0){ // This part skips over the numbers that are < 0
+        break;
+    }
 
-    if (num > champ) { // This if loop checks each integer to make sure it is larger than champ #
+    total += num; // This part tells the program to add each of the accepted input values and set it equal to a variable called "total" 
+   
+
+    if (num > champ) { // This part tells the program to assign the higest value to the variable "champ" 
         champ = num;
     }
-}
 
-    cout << "\n";
-    cout << "The sum of the integers is " << total << endl;
-    cout << "The largest integer entered is " << champ << endl; 
+      x++; // This tells the program to increment x by 1 with each iteration (run) of this while loop
+ }
+
+ avg = total / x; // Since this calculation is based on the total of the inputted integers divided by the number of iterations ran, this calculation should be outside of the while loop!
+
+  cout << champ << " ";
+  cout << fixed << setprecision(2) << avg << endl;
+
+ return 0;
+}
     
+// INPUT: 15 20 0 3 -1
+//OUTPUT: 20 9.50
 
 // -------------------------------------- PART 8 --------------------------------------------------------------------------------
 
@@ -168,7 +181,7 @@ int main()
 // ---------------------------------------------                    -------------------------------------------------------------------
         // Complex Do...While Statments 
 
-/*
+
     int choose, num1, num2, result; 
 
     do {
@@ -212,7 +225,7 @@ int main()
 
         }
     } while (choose != 5); 
-    */
+    
 
     return 0;
 
