@@ -1,0 +1,8 @@
+Strings are similar to Arrays, which uses indexes to access elements you can always access.
+
+For the zybooks assignment, you want to use Strings, use a for loop to read each string of words until it reaches the space. The first input should declare how many strings there are, the second input should be the list of strings (words), then the last input is the character that the code should check the words for. Output should be the words that contain said character. 
+
+
+
+
+ 
