@@ -1,0 +1,14 @@
+Arrays are always pass by reference because of the set amount of memory delegated  to said array. There's a lot of info held inside of the arrays, so pass by reference is the most optimal.
+ Copying information into another space is inefficient. 
+ 
+Handled a Sequential Search. 
+ 
+Selection Sorting is finding the smallest element(s), then swapping them around until they are in sequential order. 
+ 
+Make a practice VS on Vectors to not clog your Array notes.
+
+Transposing is only possible when the # of rows and columns are the same
+
+
+
+

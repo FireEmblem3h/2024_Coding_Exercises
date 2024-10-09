@@ -1,0 +1,5 @@
+﻿  Arrays and Quiz 2 Corrections.cpp
+C:\Users\JackO\OneDrive\Desktop\Coding Projects\Coding Excercies\Arrays\Arrays and Quiz 2 Corrections\Arrays and Quiz 2 Corrections\Arrays and Quiz 2 Corrections.cpp(62,6): error C2084: function 'void printArray(int [],int)' already has a body
+      C:\Users\JackO\OneDrive\Desktop\Coding Projects\Coding Excercies\Arrays\Arrays and Quiz 2 Corrections\Arrays and Quiz 2 Corrections\Arrays and Quiz 2 Corrections.cpp(31,6):
+      see previous definition of 'printArray'
+  
