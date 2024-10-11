@@ -59,7 +59,7 @@ void selectionSort(int arr[], int size) {
 
 }
 
-/*int MaxProfit(int prices[], int size) {
+int MaxProfit(int prices[], int size) {
 
 
 	int lowest = prices[0], mp = 0;
@@ -73,9 +73,9 @@ void selectionSort(int arr[], int size) {
 	}
 
 	return mp;
-}*/
+}
 
-/**void printArray(int arr[], int size)
+void printArray(int arr[], int size)
 {
 
 	for (int x = 0; x > size; x++) {
@@ -83,9 +83,9 @@ void selectionSort(int arr[], int size) {
 		cout << arr[x] << endl; 
 
 	}
-}*/
+}
 
-/*int largest(int arr[], int size) {
+int largest(int arr[], int size) {
 
 	int champ = arr[0];
 
@@ -93,9 +93,9 @@ void selectionSort(int arr[], int size) {
 		if (arr[y] > champ) champ = arr[y];
 	}
 	return champ; 
-}*/
+}
 
-/*double average(int arr[], int size) {
+double average(int arr[], int size) {
 
 	double total = 0.0;
 
@@ -115,9 +115,9 @@ int search(int arr[], int size, int target)
 	return -1; 
 
 }
-*/
 
-/*int main()
+
+int main()
 {
 	//Quiz Corrections: 65/80
 
@@ -137,6 +137,6 @@ int search(int arr[], int size, int target)
 	cout << fixed << setprecision(2) << count << "students passed the exam."; //You want this OUTSIDE of the for loop because you dont want it to repeat
 
 }
-*/
+
 
 
